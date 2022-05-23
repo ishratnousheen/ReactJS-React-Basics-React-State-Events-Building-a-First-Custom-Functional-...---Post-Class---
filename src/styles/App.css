@@ -1,20 +1,17 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-h5 {
-    color: #0d71a0;
-    text-align:  center;
+.playground{
+    width:50%;
+    height:50%;
+    margin: auto;
 }
-
-input {
-    margin-left: 40%;
+body html .root {
+    height: 100%;
 }
-
-button {
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.ball{
+    background-color: black;
+    box-shadow: 0 10px 10px -6px;
+    position: relative;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
 }
